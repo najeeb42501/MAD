@@ -57,6 +57,20 @@ fun Greeting() {
         }
 
     }
+    //Task2
+    Row {
+        Image(
+            painter = painterResource(
+                id = R.drawable.ic_launcher_foreground
+            ),
+            contentDescription = "Description",
+            Modifier.size(40.dp)
+        )
+        Column {
+            Text(text = "Text line 1")
+            Text(text = "Text line 2")
+        }
+    }
 
 }
 
